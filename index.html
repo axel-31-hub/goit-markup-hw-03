@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+    rel="stylesheet"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -15,7 +19,7 @@
     <header>
       <nav class="container navegation__container">
         <a href="#" class="titulo_pagina">webstudio</a>
-        <ul class="text-color hero__navegation">
+        <ul class="hero__navegation">
           <li><a href="#" class="text-color">estudio</a></li>
           <li><a href="./portfolio.html" class="text-color">portafolio</a></li>
           <li><a href="#" class="text-color">contacto</a></li>
@@ -50,30 +54,30 @@
         <div class="container section">
           <ul class="about__gallery">
             <li>
-              <h3>ATENCIÓN A LOS DETALLES</h3>
-              <p>
+              <h3 class="text-titulo">ATENCIÓN A LOS DETALLES</h3>
+              <p class="text_item">
                 Nos adentramos en todos los detalles y procesos de su negocio,
                 para así desarrollar una solución a su medida.
               </p>
             </li>
             <li>
-              <h3>PUNTUALIDAD</h3>
-              <p>
+              <h3 class="text-titulo">PUNTUALIDAD</h3>
+              <p class="text_item">
                 Con nosotros, usted puede sentirse seguro y protegido. Un
                 principio importante de la empresa: respetar su tiempo y
                 respetar los plazos acordados.
               </p>
             </li>
             <li>
-              <h3>PLANIFICACIÓN</h3>
-              <p>
+              <h3 class="text-titulo">PLANIFICACIÓN</h3>
+              <p class="text_item">
                 Usted podrá observar y participar en cada fase del desarrollo y
                 aplicación de soluciones.
               </p>
             </li>
             <li>
-              <h3>TEGNOLOGÍA MODERNA</h3>
-              <p>
+              <h3 class="text-titulo">TEGNOLOGÍA MODERNA</h3>
+              <p class="text_item">
                 Usamos herramientas innovadoras para resolver las tareas
                 asignadas. Es hora de simplificar los procesos laborales.
               </p>
@@ -88,37 +92,35 @@
           <ul class="about__gallery">
             <li>
               <img
-                src="./imagen/computador.jpg"
+                src="./imagen/computador_red.jpg"
                 alt="a que nos dedicamos"
                 width="373px"
-                height="323px"
+                
               />
             </li>
             <li>
               <img
-                src="./imagen/computador2.jpg"
+                src="./imagen/app_movil.jpg"
                 alt="a que nos dedicamos"
                 width="373px"
-                height="323px"
               />
             </li>
             <li>
               <img
-                src="./imagen/table.jpg"
+                src="./imagen/table_web.jpg"
                 alt="a que nos dedicamos"
                 width="373px"
-                height="323px"
               />
             </li>
           </ul>
         </div>
       </section>
-      <section class="team">
-        <div class="container">
+      <section class="container_team">
+        <div>
           <h2 class="team-title">Nuestro Equipo</h2>
           <ul class="team-list section">
             <div >
-            <li class="team__box" width="270px" height="368px">
+            <li class="team__box" width="270px">
               <img
                 src="./imagen/Pablo_Mijango.jpg"
                 alt="pablo mijango"
@@ -129,7 +131,7 @@
             </li>
           </div>
 
-            <li  class="team__box" width="270px" height="368px">
+            <li  class="team__box" width="270px">
               <img
                 src="./imagen/Andres_Cubos.jpg"
                 alt="andres cubo"
@@ -138,7 +140,7 @@
               <h3 class="team_name">Andres Cubos</h3>
               <p class="team_name_2">Diseñador de Productos</p>
             </li>
-            <li  class="team__box" width="270px" height="368px">
+            <li  class="team__box" width="270px">
               <img
                 src="./imagen/carlas_palacio.jpg"
                 alt="carla palacio"
@@ -168,11 +170,11 @@
           rel="noopener nofollow noreferrer">Calz. Ticomán 500, Ciudad de<br> México, CDMX, México </a>
         </li>
        
-        <li class="text-color__contacto">
-          <a href="mailto:info@example.com"></a>info@example.com </a>
+        <li>
+          <a class="text-color__contacto" href="mailto:info@example.com">info@example.com </a>
         </li>
-        <li class="text-color__contacto">
-          <a href="tel:+525555296000"></a>+52 55 5529 6000 </a>
+        <li >
+          <a class="text-color__contacto" href="tel:+525555296000">+52 55 5529 6000 </a>
         </li>
       </ul>
       </section>

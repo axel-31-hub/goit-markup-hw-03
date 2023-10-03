@@ -20,22 +20,21 @@ body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
-.titulo__hero{
-  color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 44px;
-font-style: normal;
-font-weight: 900;
-line-height:  1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-width: 696px;
-height: 120px;
-margin: 0 auto;
-display: block;
-margin-bottom: 30px;
-
+.titulo__hero {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
 }
 .titulo_pagina {
   color: var(--color--buttom--activo);
@@ -52,9 +51,13 @@ margin-bottom: 30px;
 /* estilos index  */
 
 .container {
-
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
+}
+.container_team {
+  width: auto;
+  margin: auto;
+  background: #f5f4fa;
 }
 .color__title {
   color: var(--color--buttom--activo);
@@ -67,29 +70,36 @@ margin-bottom: 30px;
   letter-spacing: 0.078em;
 }
 .button__hero {
-  color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.87;
-letter-spacing: 0.96px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
   padding: 10px 32px 10px 32px;
   border-radius: 4px;
   gap: 10px;
   background: var(--colo--web--studio);
   display: inline-flex;
-justify-content: center;
-align-items: center;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
+  justify-content: center;
+  align-items: center;
 }
 .button__hero:hover {
   background: var(--color--buttom--activo);
   color: var(--color--text--secundario);
 }
 
+.text-color {
+  color: black;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
 .text-color:hover {
   color: blue;
 }
@@ -169,6 +179,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   align-items: center;
   column-gap: 80px;
   padding: 25px;
+  padding-right: 203px;
 }
 
 .navegation__contacts {
@@ -180,8 +191,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 /*estilos segunda section titulo principal y boton*/
 
-
-
 .imagen {
   max-width: 1600px;
   max-height: 600px;
@@ -189,16 +198,14 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-right: auto;
   background-size: cover;
   background-position: center;
-
 }
-.hero{
+.hero {
   background-color: var(--color--fondo--secundario);
   padding-top: 200px;
   padding-bottom: 280px;
-  
-  text-align: center;
 
-  }
+  text-align: center;
+}
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -214,8 +221,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .container__fondo {
   color: var(--color--titulo--principal);
-  display: flex;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,9 +238,30 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-top: 250px;
 }
 /*section 3 textos ----------------------------------------------------*/
-.about__gallery {
-  display: flex;
-  gap: 40px;
+.item__text {
+  padding-top: 0px;
+}
+.text-titulo {
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  width: 270px;
+  padding-bottom: 10px;
+}
+.text_item {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71em;
+  letter-spacing: 0.42px;
+  width: 270px;
 }
 /*secrion 4 galeria a que nos dedicamos---------------*/
 .about__gallery {
@@ -260,55 +286,56 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-bottom: 56px;
 }
 /*section 4 class="team"-------------------*/
-.team-list {
-  display: flex;
-  gap: 40px;
-}
-.team-title {
-  color: #212121;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.08px;
-}
-.team__box {
-  width: 270px;
-  height: 368px;
-  flex-shrink: 0;
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  padding-top: 30px;
-}
-.team_name{
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 30px;
-}
-.team_name_2{
-  padding-top: 10px;
-  text-align: center;
-  
-}
-/*section footer-----------------*/
 
-.footer__fondo {
-  background: #212121;
-  padding-top: 95px;
-  padding-bottom: 50px;
-}
 
-/*.test-color__direccion {
+  .team-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .team-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding-top: 90px;
+  }
+  .team__box {
+    width: 270px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #fff;
+    padding-top: 0px;
+  }
+  .team_name {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .team_name_2 {
+    padding-top: 10px;
+    text-align: center;
+  }
+  /*section footer-----------------*/
+
+  .footer__fondo {
+    background: #212121;
+  }
+
+  /*.test-color__direccion {
   width: 231px;
   padding-bottom: 0px;
   color: rgba(255, 255, 255, 0.6);*/
 }
-.text-color__contacto {
+/*.text-color__contacto {
   color: #ffffff60;
   padding-top: 0px;
-}
+}*/
 .section__footer {
   width: 231px;
 
@@ -329,23 +356,20 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 /* ESTILO------REDES-----FOOTER----*/
 .contacts__footer {
-  
 }
-.flex-container{
+.flex-container {
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin: 0;
 }
-.address_color{
-  color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height:  1.71;
-letter-spacing: 0.42px;
+.address_color {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 .container__footer {
   display: flex;
@@ -368,17 +392,20 @@ letter-spacing: 0.42px;
   color: rgba(255, 255, 255, 0.6);
 }
 .text-color__contacto {
-  color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.42px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71em;
+  letter-spacing: 0.42px;
+  width: 231px;
+  padding-bottom: 0px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .section__footer {
   width: 231px;
-  height: 92px;
+
   flex-shrink: 0;
 }
 .title-6 {
